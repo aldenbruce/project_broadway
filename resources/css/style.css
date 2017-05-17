@@ -8,7 +8,8 @@ h1, h2, h3 {
 }
 
 #header {
-  background-image: url("/home/alden/Documents/ProjectBroadway/resources/images/the-flatiron-building.png");
+  background-image: url("../images/the-flatiron-building.png");
+  background-size: cover;
 }
 
 h1 {
@@ -35,11 +36,16 @@ a {
   color: white;
 }
 
+#header a {
+  font-size: 18px;
+}
+
 #design_header {
   color: white;
   font-size: 23px;
   font-weight: bold;
-  background-image: url("/home/alden/Documents/ProjectBroadway/resources/images/the-flatiron-building.png")
+  background-image: url("../images/the-flatiron-building.png");
+  background-size: cover;
 }
 
 #footer {
