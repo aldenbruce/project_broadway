@@ -3,15 +3,17 @@ html {
   font-family: Helvetica;
 }
 
-h1, h2 {
-  text-transform: uppercase;
+h1, h2, h3 {
   font-weight: bold;
+}
+
+#header {
+  background-image: url("/home/alden/Documents/ProjectBroadway/resources/images/the-flatiron-building.png");
 }
 
 h1 {
   font-size: 70px;
   color: white;
-  background-image: url("resources/images/the-flatiron-building.png");
 }
 
 h2 {
@@ -22,28 +24,34 @@ h2 {
 h3 {
   font-size: 23px;
   color: black;
-  font-weight: bold;
 }
 
 p {
   font-size: 14px;
 }
 
+a {
+  font-weight: bold;
+  color: white;
+}
+
 #design_header {
   color: white;
   font-size: 23px;
   font-weight: bold;
-  background-image: url("resources/images/the-flatiron-building.png")
+  background-image: url("/home/alden/Documents/ProjectBroadway/resources/images/the-flatiron-building.png")
 }
 
 #footer {
   color: white;
   text-align: left;
   background-color: dimgray;
+  font-size: 11px;
 }
 
 #trademark {
-  font-size: 11px;
   float: left;
-  line-height: 2px;
+  font-size: 11px;
+  line-height: 0px;
+  padding-right: 5px;
 }
