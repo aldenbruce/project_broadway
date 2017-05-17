@@ -11,6 +11,7 @@ h1, h2 {
 h1 {
   font-size: 70px;
   color: white;
+  background-image: url("resources/images/the-flatiron-building.png");
 }
 
 h2 {
@@ -32,6 +33,7 @@ p {
   color: white;
   font-size: 23px;
   font-weight: bold;
+  background-image: url("resources/images/the-flatiron-building.png")
 }
 
 #footer {
